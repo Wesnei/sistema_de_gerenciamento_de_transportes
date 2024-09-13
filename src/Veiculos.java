@@ -8,14 +8,12 @@ public class Veiculos {
     public double capacidadeDeCargas;
     public int numeroDeAssentos;
 
-    // Construtor básico
     public Veiculos(String marca, String modelo, String ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
     }
 
-    // Construtor com todos os parâmetros
     public Veiculos(String marca, String modelo, String ano, int quantidadeDePortas, int cilindradas, double capacidadeDeCargas, int numeroDeAssentos) {
         this.marca = marca;
         this.modelo = modelo;
